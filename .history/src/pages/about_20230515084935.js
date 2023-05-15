@@ -5,7 +5,7 @@ import Layout from '@/components/Layout'
 import profilepicture from "../../public/images/profile/image 3.jpg";
 import Image from 'next/image'
 import { useMotionValue, useInView, useSpring } from 'framer-motion';
-import Skill from '@/components/skills';
+import Skills from '@/components/skills';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education'
 import TransitionEffect from '@/components/TransitionEffect';
@@ -97,7 +97,7 @@ Regardless of the project, I bring my passion for design excellence and user-cen
     
              </div>
              <BackToTop/>
-             <Skill />
+             <Skills />
              <Experience/>
              <Education/>
              </Layout>

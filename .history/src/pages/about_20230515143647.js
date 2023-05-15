@@ -97,7 +97,7 @@ Regardless of the project, I bring my passion for design excellence and user-cen
     
              </div>
              <BackToTop/>
-             <Skill />
+             <Skills />
              <Experience/>
              <Education/>
              </Layout>
