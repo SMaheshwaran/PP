@@ -17,7 +17,7 @@ const work = () => {
        <TransitionEffect/>
        <main className='flex flex-col items-center justify-center w-full my-4 dark:text-light'>
        <Layout>
-           <AnimatedText text="Idea&apos;s can change the World!" className='mb-16 my-4 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
+           <AnimatedText text="Words can change the World!" className='mb-16 my-4 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
            <div className="my-10">
      <h2 className="w-full mb-32 font-bold text-center text-8xl md:text-6xl xs:text-4xl md:mb-16">
      UI/UX</h2>   

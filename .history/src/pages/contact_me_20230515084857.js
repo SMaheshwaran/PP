@@ -110,7 +110,7 @@ const Contact_me = () => {
 
      </main>
      
-    <div id="Contact" className="py-10 dark:text-white">
+    <div id="contact" className="py-10 dark:text-white">
         
 </div>
 <BackToTop/>
