@@ -9,8 +9,8 @@ import BackToTop from '@/components/BackToTop';
 const Contact_me = () => {
     // SERVICE_ID         :- service_l460sbs
     // YOUR_TEMPLATE_ID   :- template_9yo7jgo
-    // form.current       :- 
-    // YOUR_PUBLIC_KEY    :- 9qLgeMJduL7svjbxF
+    // form.current       :-
+    // YOUR_PUBLIC_KEY    :- he8dJT6njmsOQwmZj
     const [form, setForm] = useState({
         name: "",
         email: "",
@@ -41,7 +41,7 @@ const Contact_me = () => {
               subject: form.subject,
               message: form.message,
             },
-            "9qLgeMJduL7svjbxF"
+            "7GxiigNF8rL8pwlYg"
           )
           .then(
             () => {
