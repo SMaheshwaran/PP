@@ -60,7 +60,7 @@ md:w-[2px] md:left-[35px] xs:left-[33px]
             position="Intern" 
             company="LIMRA United Technology"
             commpanyLink="https://www.linkedin.com/company/limraunited/mycompany/"
-            time="Sep 2022-May 2023" 
+            time="2022-Present" 
             address="21, 10, Cart Track Rd,Velachery,Chennai-42" 
             work="The experience of doing internships as a Software Tester and in other aspects of the development process allowed me to gain a deeper understanding of how the IT industry operates."
             />
