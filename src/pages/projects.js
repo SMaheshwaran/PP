@@ -7,13 +7,13 @@ import { DribbbleIcon,GithubIcon } from '@/components/icon'
 import { ImBehance } from "react-icons/im";
 import Image from 'next/image'
 import project1 from "../../public/images/projects/Sushi order.png"
-import project2 from "../../public/images/projects/crypto stumps.png"
+import project2 from "../../public/images/projects/twitter clone.png"
 import project3 from "../../public/images/projects/Plorest.png"
 import project4 from "../../public/images/projects/Nike.png"
-import project5 from "../../public/images/projects/Waterloo.png"
+import project5 from "../../public/images/projects/Book Haven.png"
 import project6 from "../../public/images/projects/Bendita.png"
-import project7 from "../../public/images/projects/Chat Bot.png"
-import project8 from "../../public/images/projects/Easy Learning.png"
+import project7 from "../../public/images/projects/Ai tshirt.png"
+import project8 from "../../public/images/projects/NFT.png"
 import project9 from "../../public/images/projects/Portfolio Home Page.png"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -185,12 +185,22 @@ const Projects = () => {
                       
                       <Design
 
-                     title="Sushi Placer"
-                     img={project1}
-                     summary="This is a Concept Design that I created for an app that allows you to place orders for your favourite sushi from your nearest restaurants."
-                     link="https://www.behance.net/gallery/161229875/Sushi-placer"
-                     github="https://dribbble.com/shots/20333650-Sushi-Order-App"
-                     type="Featured Project"/>
+                     title="Book Haven"
+                     img={project5}
+                     summary="This use case showcases a web design project that brings the concept of an online Book Store to reality, providing users with an immersive platform to explore, purchase, and indulge in their favorite books. Experience seamless navigation, personalized recommendations, and a delightful book shopping experience."
+                     link="https://www.behance.net/gallery/174592495/Book-Haven"
+                     github="https://dribbble.com/shots/21915279-Book-Haven"
+                     type="UI/UX Use Case"/>
+                 </div>
+                 <div className='col-span-6 sm:col-span-12'>
+                 <ProjectD 
+
+title="Sushi Placer"
+img={project1}
+link="https://www.behance.net/gallery/161229875/Sushi-placer"
+ github="https://dribbble.com/shots/20333650-Sushi-Order-App"
+type="Featured Project"/>
+                       
                  </div>
                  <div className='col-span-6 sm:col-span-12'>
                  <ProjectD 
@@ -201,18 +211,6 @@ link="https://dribbble.com/shots/21300213-Nike-Air"
 github="https://www.behance.net/gallery/169157285/Nike-Air"
 type="Featured Project"/>
                        
-                 </div>
-                 <div className='col-span-6 sm:col-span-12'>
-                 <ProjectD 
-
-title="Plorest"
-img={project3}
-summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-link="https://dribbble.com/shots/20354798-Plorest"
-github="https://www.behance.net/gallery/161230655/Plorest"
-type="Featured Project"/>
                  </div>
 
                  <div className='col-span-12'>
@@ -230,13 +228,13 @@ type="Featured Project"/>
                  <div className='col-span-6 sm:col-span-12'>
                  <ProjectD 
 
-title="WLoo"
-img={project5}
+title="Plorest"
+img={project3}
 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-link="https://dribbble.com/shots/21300522-WLoo"
-github="https://www.behance.net/maheshwsubrama"
+link="https://dribbble.com/shots/20354798-Plorest"
+github="https://www.behance.net/gallery/161230655/Plorest"
 type="Featured Project"/>
                        
                  </div>
@@ -256,37 +254,35 @@ type="Featured Project"/>
                  <div className='col-span-12 sm:col-span-12'>
                  <FeaturedProject 
 
-title="AI Chat-Bot"
+title="AI T-Shirt Generator"
 img={project7}
-summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-link="https://jec-chatbot.netlify.app/"
-github="https://github.com/SMaheshwaran/AI-ChatBot"
+summary="This AI T-Shirt generator helps in designing the t-shirt with the logo's you provide and you can change the camera angles and change colors of your T-shirt."
+link="https://github.com/SMaheshwaran/Ai-Tshirt-generator"
+github="https://github.com/SMaheshwaran/Ai-Tshirt-generator"
 type="Featured Project"/>
                  </div>
                  <div className='col-span-6 sm:col-span-12'>
                  <Project 
 
-title="Easy Learning"
+title="NFT_marketplace"
 img={project8}
 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-link="https://jec-chatbot.netlify.app/"
-github="https://github.com/SMaheshwaran/Educational_Website"
+link="https://github.com/SMaheshwaran/NFT_marketplace_react_"
+github="https://github.com/SMaheshwaran/NFT_marketplace_react_"
 type="Featured Project"/>
                  </div>
                  <div className='col-span-6 sm:col-span-12'>
                  <Project 
 
-title="Crypto stumps"
+title="Twitter clone"
 img={project2}
 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-link="https://github.com/SMaheshwaran/CryptoStumps"
-github="https://github.com/SMaheshwaran/CryptoStumps"
+link="https://github.com/SMaheshwaran/twitter_clone"
+github="https://github.com/SMaheshwaran/twitter_clone"
 type="Featured Project"/>
                  </div>
 
