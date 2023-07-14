@@ -67,25 +67,25 @@ md:w-[2px] md:left-[35px] xs:left-[33px]"/>
             
             <Details 
             type="Ideation" 
-            time="Phase Four"
+            time="Phase Three"
             info="Researching the problem is the next step to finding possible solutions, including users, markets, competitors, and products." 
             />  
             
              <Details 
             type="Mockups and Prototypes" 
-            time="Phase Five"
+            time="Phase Four"
             info="After converting the wireframes into mockups, high-fidelity prototypes are built that look and work like the final product." 
             />   
             
             <Details 
             type="Usability Testing" 
-            time="Phase Six"
+            time="Phase Five"
             info="The primary purpose of usability testing is to identify usability issues, assess accessibility, identify business opportunities, and validate ideas." 
             />  
             
              <Details 
             type="Design Handoff" 
-            time="Phase Seven"
+            time="Phase Six"
             info="It is during the second-to-last stage of UX design process, in which prototypes and documentation are handed over." 
             />   
             
