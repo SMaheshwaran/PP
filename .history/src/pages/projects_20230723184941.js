@@ -264,13 +264,13 @@ type="Featured Project"/>
                  <div className='col-span-6 sm:col-span-12'>
                  <Project 
 
-title="Metaverse_Madness"
+title="NFT_marketplace"
 img={project8}
 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-link="https://metaversus-tau-rust.vercel.app/?vercelToolbarCode=1oOdj4LQkf_4zcj"
-github="https://github.com/SMaheshwaran/Metaversus"
+link="https://github.com/SMaheshwaran/NFT_marketplace_react_"
+github="https://github.com/SMaheshwaran/NFT_marketplace_react_"
 type="Featured Project"/>
                  </div>
                  <div className='col-span-6 sm:col-span-12'>
