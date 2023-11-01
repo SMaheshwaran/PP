@@ -27,7 +27,7 @@ const FeaturedProject=({type,title,summary,img,link,github}) => {
 
     return(
         <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:p-4'>
-            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-2xl bg-dark dark:bg-light xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
+            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-2xl bg-dark dark:bg-light dark:bg-light rounded-br-2xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
             <Link href={link} target="_blank"
             className='w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full'
             >
@@ -64,7 +64,7 @@ const Design=({type,title,summary,img,link,github}) => {
 
     return(
         <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:p-4'>
-            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-3xl bg-dark dark:bg-light xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
+            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-3xl bg-dark dark:bg-light dark:bg-light rounded-br-3xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
             <Link href={link} target="_blank"
             className='w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full'
             >
