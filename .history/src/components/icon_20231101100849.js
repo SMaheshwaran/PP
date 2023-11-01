@@ -72,11 +72,11 @@ export const PinterestIcon = ({ className, ...rest }) => (
   </svg>
 );
 
-export const AiOutlineMedium = ({ className, ...rest }) => (
+export const DribbbleIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="2em"
-    height="2em"
+    width="1em"
+    height="1em"
     viewBox="0 0 256 256"
     {...rest}
     className={`w-full h-auto ${className}`}

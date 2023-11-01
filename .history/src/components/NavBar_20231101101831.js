@@ -6,7 +6,7 @@ import { GithubIcon, LinkedInIcon, MoonIcon, SunIcon} from './icon';
 import { motion } from 'framer-motion';
 import { FaBehance } from "react-icons/fa";
 import  useThemeSwitcher from "./hooks/useThemeSwitcher";
-import { AiOutlineMedium } from "react-icons/ai";
+import { IconName } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 
 const CustomLink = ({href, title, className=""}) => {
@@ -115,7 +115,7 @@ const NavBar = () => {
               <motion.a href="https://dribbble.com/Mahesh_5" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
-                className="w-8 ml-5 sm:mx-1"
+                className="w-6 ml-3 sm:mx-1"
                 >
                 <AiOutlineMedium/>
               </motion.a>

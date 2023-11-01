@@ -75,7 +75,7 @@ export const PinterestIcon = ({ className, ...rest }) => (
 export const AiOutlineMedium = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="2em"
+    width="1em"
     height="2em"
     viewBox="0 0 256 256"
     {...rest}
