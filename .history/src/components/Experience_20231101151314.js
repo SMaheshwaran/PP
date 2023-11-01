@@ -63,7 +63,7 @@ md:w-[2px] md:left-[35px] xs:left-[33px]
             time="Aug 2023-Present" 
             address="Amsterdam,Netherland" 
             work="I have been deeply engaged with Visario, a startup company, from its 
-            inception, primarily focusing on mobile application design."
+inception, primarily focusing on mobile application design.."
             />
             
         <Details 
@@ -72,9 +72,7 @@ md:w-[2px] md:left-[35px] xs:left-[33px]
             commpanyLink="https://www.linkedin.com/company/limraunited/mycompany/"
             time="Aug 2023-Present" 
             address="Banglore" 
-            work="I ve been actively involved in Carbon Relay, a startup concept, 
-            contributing since the MVP (Minimum Viable Product) phase through my 
-            design phase."
+            work="The experience of doing internships as a Software Tester and in other aspects of the development process allowed me to gain a deeper understanding of how the IT industry operates."
             />
             
             <Details 

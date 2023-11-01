@@ -57,7 +57,7 @@ md:w-[2px] md:left-[35px] xs:left-[33px]
 "/>
         <ul className="flex flex-col items-start justify-between w-full ml-4 xs:ml-5">
         <Details 
-            position="UI/UX Designer" 
+            position="UI/UX Consultant" 
             company="Visario Pvt.Ltd"
             commpanyLink="https://www.linkedin.com/company/limraunited/mycompany/"
             time="Aug 2023-Present" 

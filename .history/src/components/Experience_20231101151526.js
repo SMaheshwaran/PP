@@ -74,7 +74,7 @@ md:w-[2px] md:left-[35px] xs:left-[33px]
             address="Banglore" 
             work="I ve been actively involved in Carbon Relay, a startup concept, 
             contributing since the MVP (Minimum Viable Product) phase through my 
-            design phase."
+design phase.."
             />
             
             <Details 
