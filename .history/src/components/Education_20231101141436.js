@@ -51,7 +51,7 @@ const Education = () => {
 
 <motion.div 
 style={{scaleY: scrollYProgress}}
-className="absolute left-10 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
+className="absolute left-10 top-0 w-[4px] h-full bg-dark origin-top  dark:bg-light
 md:w-[2px] md:left-[35px] xs:left-[33px]"/>
         <ul className="flex flex-col items-start justify-between w-full ml-4 xs:ml-5">
             <Details 
