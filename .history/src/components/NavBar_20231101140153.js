@@ -106,7 +106,7 @@ const NavBar = () => {
               <motion.a href="https://www.behance.net/maheshwsubrama" target={"_blank"}
                whileHover={{y:-2}}
                whileTap={{scale:0.9}}
-               className="ml-3 w-7"
+               className="mx-3 ml-3 rounded-full w-7w-6 bg-light dark:bg-dark sm:mx-1"
                >
                <FaBehance className='w-6 h-6'/>
              </motion.a>

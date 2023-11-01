@@ -183,9 +183,9 @@ const NavBar = () => {
               <motion.a href="https://medium.com/@mahesh_s" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
-                className="ml-3 w-7"
+                className="w-6 ml-3 sm:mx-1"
                 >
-                <AiOutlineMedium />
+                <AiOutlineMedium/>
               </motion.a>
  
               <button 

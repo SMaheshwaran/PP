@@ -61,7 +61,7 @@ md:w-[2px] md:left-[35px] xs:left-[33px]
             company="Visario Pvt.Ltd"
             commpanyLink="https://www.linkedin.com/company/limraunited/mycompany/"
             time="Aug 2023-Present" 
-            address="Amsterdam,Netherland" 
+            address="Amsterdam," 
             work="The experience of doing internships as a Software Tester and in other aspects of the development process allowed me to gain a deeper understanding of how the IT industry operates."
             />
             

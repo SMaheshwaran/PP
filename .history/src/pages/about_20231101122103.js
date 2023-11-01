@@ -69,20 +69,20 @@ Regardless of the project, I bring my passion for design excellence and user-cen
      (max-width: 1200px) 50vw,
      33vw'/>
     </div>
-    <div className='flex flex-col items-end justify-between col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
+    {/* <div className='flex flex-col items-end justify-between col-span-2 xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
     <div className='flex flex-col items-end justify-center xl:items-center'>
         <span className='inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl'>
-            <AnimatedNumbers value={100}/>+
+            <AnimatedNumbers value={50}/>+
         </span>
         <h2 className='text-xl font-medium captalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
-            Screens Designed</h2>
+            User Experience & User Interface Designs</h2>
     </div>
 
     <div className='flex flex-col items-end justify-center xl:items-center'>
         <span className='inline-block font-bold text-7xl md:text-6xl sm:text-5xl xs:text-4xl'>
-            <AnimatedNumbers value={10}/>+
+            <AnimatedNumbers value={50}/>+
         </span>
-        <h2 className='text-xl font-medium captalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Free-Lancing Projects</h2>
+        <h2 className='text-xl font-medium captalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Front-End Projects</h2>
     </div>
     
     
@@ -93,7 +93,7 @@ Regardless of the project, I bring my passion for design excellence and user-cen
         <h2 className='text-xl font-medium captalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>Years of Experience</h2>
     </div>
 
-    </div>
+    </div> */}
     
              </div>
              <BackToTop/>

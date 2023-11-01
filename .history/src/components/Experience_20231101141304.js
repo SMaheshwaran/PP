@@ -58,10 +58,10 @@ md:w-[2px] md:left-[35px] xs:left-[33px]
         <ul className="flex flex-col items-start justify-between w-full ml-4 xs:ml-5">
         <Details 
             position="UI/UX Designer" 
-            company="Visario Pvt.Ltd"
+            company="Visario Pvt"
             commpanyLink="https://www.linkedin.com/company/limraunited/mycompany/"
             time="Aug 2023-Present" 
-            address="Amsterdam,Netherland" 
+            address="Banglore" 
             work="The experience of doing internships as a Software Tester and in other aspects of the development process allowed me to gain a deeper understanding of how the IT industry operates."
             />
             

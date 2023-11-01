@@ -110,10 +110,10 @@ const NavBar = () => {
                >
                <FaBehance className='w-6 h-6'/>
              </motion.a>
-              <motion.a href="https://medium.com/@mahesh_s" target={"_blank"}
+              <motion.a href="https://dribbble.com/Mahesh_5" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
-                className="w-8 ml-5 sm:mx-1"
+                className="w-8 ml-5 sm:mx-"
                 >
                 <AiOutlineMedium/>
               </motion.a>
@@ -180,12 +180,12 @@ const NavBar = () => {
                >
                <FaBehance className='w-6 h-6'/>
              </motion.a>
-              <motion.a href="https://medium.com/@mahesh_s" target={"_blank"}
+              <motion.a href="https://dribbble.com/Mahesh_5" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
-                className="ml-3 w-7"
+                className="w-6 ml-3 sm:mx-1"
                 >
-                <AiOutlineMedium />
+                <AiOutlineMedium/>
               </motion.a>
  
               <button 

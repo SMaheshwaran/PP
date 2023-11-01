@@ -183,7 +183,6 @@ const NavBar = () => {
               <motion.a href="https://medium.com/@mahesh_s" target={"_blank"}
                 whileHover={{y:-2}}
                 whileTap={{scale:0.9}}
-                className="ml-3 w-7"
                 >
                 <AiOutlineMedium />
               </motion.a>

@@ -185,7 +185,7 @@ const NavBar = () => {
                 whileTap={{scale:0.9}}
                 className="ml-3 w-7"
                 >
-                <AiOutlineMedium />
+                <AiOutlineMedium className="bg-light dark:bg-dark"/>
               </motion.a>
  
               <button 
