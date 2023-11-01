@@ -3,8 +3,7 @@ import React from 'react'
 import Head from 'next/head'
 import AnimatedText from '@/components/AnimatedText'
 import Link from "next/link"
-import {GithubIcon } from '@/components/icon'
-import { FcDribbble } from "react-icons/fc";
+import { ,GithubIcon } from '@/components/icon'
 import { ImBehance } from "react-icons/im";
 import Image from 'next/image'
 import project1 from "../../public/images/projects/Sushi order.png"
@@ -86,7 +85,7 @@ const Design=({type,title,summary,img,link,github}) => {
                 </Link>
                 <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
                 <div className='flex items-center mt-2'>
-                    <Link href={github} target="_blank" className='w-8 md:w-6'><FcDribbble/> {" "}
+                    <Link href={github} target="_blank" className='w-8 md:w-6'><DribbbleIcon/> {" "}
                    </Link>
                 </div>
             </div>

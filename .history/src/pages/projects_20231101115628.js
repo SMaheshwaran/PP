@@ -3,8 +3,7 @@ import React from 'react'
 import Head from 'next/head'
 import AnimatedText from '@/components/AnimatedText'
 import Link from "next/link"
-import {GithubIcon } from '@/components/icon'
-import { FcDribbble } from "react-icons/fc";
+import { DribbbleIcon,GithubIcon } from '@/components/icon'
 import { ImBehance } from "react-icons/im";
 import Image from 'next/image'
 import project1 from "../../public/images/projects/Sushi order.png"
@@ -27,7 +26,7 @@ const FeaturedProject=({type,title,summary,img,link,github}) => {
 
     return(
         <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:p-4'>
-            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-2xl bg-dark dark:bg-light dark:bg-light rounded-br-2xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
+            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-3xl bg-dark dark:bg-light dark:bg-light rounded-br-3xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
             <Link href={link} target="_blank"
             className='w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full'
             >
@@ -63,7 +62,7 @@ const FeaturedProject=({type,title,summary,img,link,github}) => {
 const Design=({type,title,summary,img,link,github}) => {
 
     return(
-        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:p-4'>
+        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-3xl xs:p-4'>
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-3xl bg-dark dark:bg-light dark:bg-light rounded-br-3xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
             <Link href={link} target="_blank"
             className='w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full'
@@ -86,7 +85,7 @@ const Design=({type,title,summary,img,link,github}) => {
                 </Link>
                 <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
                 <div className='flex items-center mt-2'>
-                    <Link href={github} target="_blank" className='w-8 md:w-6'><FcDribbble/> {" "}
+                    <Link href={github} target="_blank" className='w-8 md:w-6'><DribbbleIcon/> {" "}
                    </Link>
                 </div>
             </div>

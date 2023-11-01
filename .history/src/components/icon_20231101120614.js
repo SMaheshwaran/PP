@@ -72,7 +72,7 @@ export const PinterestIcon = ({ className, ...rest }) => (
   </svg>
 );
 
-export const FcDribbble = ({ className, ...rest }) => (
+export const DribbbleIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="2em"

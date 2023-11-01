@@ -72,7 +72,7 @@ export const PinterestIcon = ({ className, ...rest }) => (
   </svg>
 );
 
-export const FcDribbble = ({ className, ...rest }) => (
+export const AiOutlineMedium = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="2em"
@@ -80,7 +80,7 @@ export const FcDribbble = ({ className, ...rest }) => (
     viewBox="0 0 256 256"
     {...rest}
     className={`w-full h-auto ${className}`}
-  >
+  ></svg>
     <path fill="none" d="M0 0h256v256H0z" />
     <path
       fill="#E74D89"
@@ -92,7 +92,8 @@ export const FcDribbble = ({ className, ...rest }) => (
     />
   </svg>
 );
-export const AiOutlineMedium = ({ className, ...rest }) => (
+
+  export const DribbbleIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="2em"
@@ -100,7 +101,7 @@ export const AiOutlineMedium = ({ className, ...rest }) => (
     viewBox="0 0 256 256"
     {...rest}
     className={`w-full h-auto ${className}`}
-  >
+  ></svg>
     <path fill="none" d="M0 0h256v256H0z" />
     <path
       fill="#E74D89"

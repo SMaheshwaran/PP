@@ -13,7 +13,7 @@ import project4 from "../../public/images/projects/Nike.png"
 import project5 from "../../public/images/projects/Book Haven.png"
 import project6 from "../../public/images/projects/Bendita.png"
 import project7 from "../../public/images/projects/Ai tshirt.png"
-import project8 from "../../public/images/projects/NFT.png"
+import project8 from "../../public/images/projects/Metaverse Madness.png"
 import project9 from "../../public/images/projects/Portfolio Home Page.png"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -25,8 +25,8 @@ const FramerImage = motion(Image);
 const FeaturedProject=({type,title,summary,img,link,github}) => {
 
     return(
-        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-3xl xs:p-4'>
-            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-3xl bg-dark dark:bg-light dark:bg-light rounded-br-3xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
+        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:p-4'>
+            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-2xl bg-dark dark:bg-light dark:bg-light rounded-br-2xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
             <Link href={link} target="_blank"
             className='w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full'
             >
@@ -62,7 +62,7 @@ const FeaturedProject=({type,title,summary,img,link,github}) => {
 const Design=({type,title,summary,img,link,github}) => {
 
     return(
-        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-3xl xs:p-4'>
+        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:p-4'>
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-3xl bg-dark dark:bg-light dark:bg-light rounded-br-3xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
             <Link href={link} target="_blank"
             className='w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full'
@@ -185,7 +185,7 @@ const Projects = () => {
                       
                       <Design
 
-                     title="Sushi Placer"
+                     title="Book Haven"
                      img={project5}
                      summary="This use case showcases a web design project that brings the concept of an online Book Store to reality, providing users with an immersive platform to explore, purchase, and indulge in their favorite books. Experience seamless navigation, personalized recommendations, and a delightful book shopping experience."
                      link="https://www.behance.net/gallery/174592495/Book-Haven"
@@ -233,8 +233,8 @@ img={project3}
 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-link="https://dribbble.com/shots/21300522-WLoo"
-github="https://www.behance.net/maheshwsubrama"
+link="https://dribbble.com/shots/20354798-Plorest"
+github="https://www.behance.net/gallery/161230655/Plorest"
 type="Featured Project"/>
                        
                  </div>
@@ -264,13 +264,13 @@ type="Featured Project"/>
                  <div className='col-span-6 sm:col-span-12'>
                  <Project 
 
-title="NFT_marketplace"
+title="Metaverse_Madness"
 img={project8}
 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-link="https://github.com/SMaheshwaran/NFT_marketplace_react_"
-github="https://github.com/SMaheshwaran/NFT_marketplace_react_"
+link="https://metaversus-tau-rust.vercel.app/?vercelToolbarCode=1oOdj4LQkf_4zcj"
+github="https://github.com/SMaheshwaran/Metaversus"
 type="Featured Project"/>
                  </div>
                  <div className='col-span-6 sm:col-span-12'>

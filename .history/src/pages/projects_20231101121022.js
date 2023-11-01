@@ -3,7 +3,8 @@ import React from 'react'
 import Head from 'next/head'
 import AnimatedText from '@/components/AnimatedText'
 import Link from "next/link"
-import { DribbbleIcon,GithubIcon } from '@/components/icon'
+import {GithubIcon } from '@/components/icon'
+import { FcDribbble } from "react-icons/fc";
 import { ImBehance } from "react-icons/im";
 import Image from 'next/image'
 import project1 from "../../public/images/projects/Sushi order.png"
@@ -13,7 +14,7 @@ import project4 from "../../public/images/projects/Nike.png"
 import project5 from "../../public/images/projects/Book Haven.png"
 import project6 from "../../public/images/projects/Bendita.png"
 import project7 from "../../public/images/projects/Ai tshirt.png"
-import project8 from "../../public/images/projects/NFT.png"
+import project8 from "../../public/images/projects/Metaverse Madness.png"
 import project9 from "../../public/images/projects/Portfolio Home Page.png"
 import { motion } from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
@@ -25,8 +26,8 @@ const FramerImage = motion(Image);
 const FeaturedProject=({type,title,summary,img,link,github}) => {
 
     return(
-        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-3xl xs:p-4'>
-            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-3xl bg-dark dark:bg-light dark:bg-light rounded-br-3xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
+        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:p-4'>
+            <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-2xl bg-dark dark:bg-light dark:bg-light rounded-br-2xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
             <Link href={link} target="_blank"
             className='w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full'
             >
@@ -62,7 +63,7 @@ const FeaturedProject=({type,title,summary,img,link,github}) => {
 const Design=({type,title,summary,img,link,github}) => {
 
     return(
-        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-3xl xs:p-4'>
+        <article className='relative flex items-center justify-between w-full p-12 border border-solid shadow-2xl rounded-br-2xl rounded-3xl border-dark bg-light dark:bg-dark dark:border-light lg:flex-col lg:p-8 xs:rounded-2xl xs:p-4'>
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem]  rounded-br-3xl bg-dark dark:bg-light dark:bg-light rounded-br-3xl xs:right-2 sm:h-[102%] xs:w-full xs:rounded-[1.5rem]'/>
             <Link href={link} target="_blank"
             className='w-1/2 overflow-hidden rounded-lg cursor-pointer lg:w-full'
@@ -85,7 +86,7 @@ const Design=({type,title,summary,img,link,github}) => {
                 </Link>
                 <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
                 <div className='flex items-center mt-2'>
-                    <Link href={github} target="_blank" className='w-8 md:w-6'><DribbbleIcon/> {" "}
+                    <Link href={github} target="_blank" className='w-8 md:w-6'><FcDribbbleIcon/> {" "}
                    </Link>
                 </div>
             </div>
@@ -185,18 +186,18 @@ const Projects = () => {
                       
                       <Design
 
-                     title="Sushi Placer"
-                     img={project1}
-                     summary="This is a Concept Design that I created for an app that allows you to place orders for your favourite sushi from your nearest restaurants."
-                     link="https://www.behance.net/gallery/161229875/Sushi-placer"
-                     github="https://dribbble.com/shots/20333650-Sushi-Order-App"
-                     type="Featured Project"/>
+                     title="Book Haven"
+                     img={project5}
+                     summary="This use case showcases a web design project that brings the concept of an online Book Store to reality, providing users with an immersive platform to explore, purchase, and indulge in their favorite books. Experience seamless navigation, personalized recommendations, and a delightful book shopping experience."
+                     link="https://www.behance.net/gallery/174592495/Book-Haven"
+                     github="https://dribbble.com/shots/21915279-Book-Haven"
+                     type="UI/UX Use Case"/>
                  </div>
                  <div className='col-span-6 sm:col-span-12'>
                  <ProjectD 
 
 title="Sushi Placer"
-img={project5}
+img={project1}
 link="https://www.behance.net/gallery/161229875/Sushi-placer"
  github="https://dribbble.com/shots/20333650-Sushi-Order-App"
 type="Featured Project"/>
@@ -233,8 +234,8 @@ img={project3}
 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-link="https://dribbble.com/shots/21300522-WLoo"
-github="https://www.behance.net/maheshwsubrama"
+link="https://dribbble.com/shots/20354798-Plorest"
+github="https://www.behance.net/gallery/161230655/Plorest"
 type="Featured Project"/>
                        
                  </div>
@@ -264,13 +265,13 @@ type="Featured Project"/>
                  <div className='col-span-6 sm:col-span-12'>
                  <Project 
 
-title="NFT_marketplace"
+title="Metaverse_Madness"
 img={project8}
 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
 It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
 local currency."
-link="https://github.com/SMaheshwaran/NFT_marketplace_react_"
-github="https://github.com/SMaheshwaran/NFT_marketplace_react_"
+link="https://metaversus-tau-rust.vercel.app/?vercelToolbarCode=1oOdj4LQkf_4zcj"
+github="https://github.com/SMaheshwaran/Metaversus"
 type="Featured Project"/>
                  </div>
                  <div className='col-span-6 sm:col-span-12'>
